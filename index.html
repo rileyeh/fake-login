@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Fake Login</title>
+</head>
+<body>
+    <header>
+        <img id='logo-img' src='https://seeklogo.com/images/B/business-people-circle-logo-83C8022853-seeklogo.com.png' alt='logo'/>
+    </header>
+
+    <section>
+        <div class="card">
+            <form onsubmit='login(event)' class='login'>
+                <input id='username' type='text' onchange='setUsername()' placeholder='username'/>
+                <input id='password' type='password' onchange='setPassword()' placeholder='password'/>
+                <button>login</button>
+            </form>
+        </div>
+        <div class="card" id="message">
+
+            
+        </div>
+    </section>
+    
+
+    <script src="index.js" ></script>
+</body>
+</html>

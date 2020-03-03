@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#logo-img {
+    height: 75px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    background-color: black;
+    margin: 20px;
+}
+
+#message {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
